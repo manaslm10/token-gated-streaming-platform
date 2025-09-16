@@ -1,0 +1,15 @@
+[package]
+name = "TokenGatedStreamingPlatform"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x8c49f9789c472a096d3568fab05fd9d770761bd135cb8f1bcf23de2edfcce917"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
